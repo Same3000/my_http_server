@@ -1,0 +1,12 @@
+[global]
+log_file = server.log
+log = true
+pid_file = /tmp/test.pid
+
+[[vhosts]]
+server_name = first_try
+port = 8000
+ip = 127.0.0.1
+root_dir = config/tests/
+default_file = file1.txt
+

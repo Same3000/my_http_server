@@ -1,0 +1,8 @@
+[global]
+pid_file = /tmp/HTTPd.pid
+log = false
+
+[[vhosts]]
+port = 1312
+ip = 127.0.0.1
+root_dir = votai/test.
